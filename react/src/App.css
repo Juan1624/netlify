@@ -6,12 +6,15 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  width: 90%;
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
 .box {
   background: #1e293b;
   padding: 25px;
